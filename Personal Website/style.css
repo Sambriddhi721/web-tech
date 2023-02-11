@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+ *{
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar{
+  background-color: rgb(167, 156, 156);
+  width: 25vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100vw;
+}
+.sidebar nav{
+padding: 60px;
+}
+.sidebar nav.li{
+ list-style: none;
+ font-size: 30px;
+
+}
+.main{
+  background-color: greenyellow;
+  width: 100%;
+}
+
+.container{
+  display: flex;
+}
+
+.infocontainer{
+  background-color:rgb(202, 9, 120);
+  height: 68vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+ 
+.devInfo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hello{
+  font-size: 45px;
+  background-color: black;
+}
+
+.name{
+  font-size: 50px;
+  background-color: antiquewhite;
+}
+.about{
+  font-size: 35px;
+  background-color: hotpink;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hobbies{
+  font-size: 30px;
+  background-color: blanchedalmond;
+}
+.experience{
+  font-size: 30px;
+  background-color: aquamarine;
+}
+.education{
+  font-size: 35px;
+  background-color: aqua;
+}
+.family{
+  font-size: 30px;
+  background-color: brown;
+}
+
+.buttons button{
+
+}
+ 
+.devpic img{
+  height: 58vh;
+  width: 30vw;
+
+}
